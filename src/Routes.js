@@ -13,6 +13,7 @@ import Exercise1 from './components/HSOC/Exercises/Exercise1'
 export default () =>
   <Switch>
     <Route path="/" exact component={Home} />
+    <Route path="/personal-website" exact component={Home} />
     <Route path="/home" exact component={Home} />
     <Route path="/about" exact component={About} />
     <Route path="/resume" exact component={Resume} />
