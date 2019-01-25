@@ -1,0 +1,38 @@
+body{
+    min-height: 100%;
+}
+
+#root{
+	min-height: 100%;
+}
+
+#notfound-wrapper{
+	display: grid;
+	grid-template-rows: 100vh;
+	align-items: center;
+}
+
+#notfound-main{
+	display: grid;
+	justify-self: center;
+	grid-template-rows: auto auto;
+	grid-row-gap: 10px;
+}
+
+#title{
+	color: white;
+	font-size: 40px;
+	font-family: inconsolata;
+}
+
+#home-but{
+	border: none;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+#home-text{
+	border: none;
+	color: black;
+	font-family: inconsolata;
+}
